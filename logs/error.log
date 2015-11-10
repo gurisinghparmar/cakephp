@@ -1,0 +1,199 @@
+2015-11-10 03:57:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 04:27:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pizza could not be found.
+Exception Attributes: array (
+  'class' => 'Pizza',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/pizza
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 04:28:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pizza could not be found.
+Exception Attributes: array (
+  'class' => 'Pizza',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/pizza
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 06:04:37 Error: Fatal Error (4): syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:04:38 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:04:42 Error: Fatal Error (4): syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:04:42 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''option'' (T_CONSTANT_ENCAPSED_STRING), expecting '('
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:05:22 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:05:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:05:26 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:05:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:05:29 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:05:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:06:59 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:06:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:07:45 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:07:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:07:52 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:07:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:07:54 Error: Fatal Error (4): syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:07:55 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''empty'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:36:06 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\cakephp\src\Template\Pizza\add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:36:06 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
