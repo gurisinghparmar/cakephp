@@ -6,3 +6,5 @@
  * unit tests in this file.
  */
 require dirname(__DIR__) . '/config/bootstrap.php';
+
+Plugin::load('Migrations'); 
