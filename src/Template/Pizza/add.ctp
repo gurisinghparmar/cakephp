@@ -14,7 +14,9 @@
                                    'empty' => 'select size'
                                     ));
             echo $this->Form->input('quantity');
-            echo $this->Form->input('topping' );
+            
+            echo $this->Form->input('topping');
+            
             echo $this->Form->input('crust',array(
             'options' => array('classic crust','cheesy crust','Thin crispy','hand tossed'),
                                    'empty' => 'select crust'
@@ -29,5 +31,6 @@
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Reset')) ?>
     <?= $this->Form->end() ?>
 </div>
