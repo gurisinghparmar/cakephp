@@ -213,3 +213,40 @@ Stack Trace:
 #2 {main}
 
 
+2015-12-09 06:41:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Category could not be found.
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/category/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-11 02:00:08 Error: [RuntimeException] Table "App\Model\Table\ArticlesTable" is not associated with "Categories"
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(84): Cake\ORM\Table->__get('Categories')
+#1 [internal function]: App\Controller\ArticlesController->add()
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#5 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-12-11 02:00:54 Error: [RuntimeException] Table "App\Model\Table\ArticlesTable" is not associated with "Categories"
+Request URL: /cakephp/articles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\src\Controller\ArticlesController.php(84): Cake\ORM\Table->__get('Categories')
+#1 [internal function]: App\Controller\ArticlesController->add()
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#5 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+

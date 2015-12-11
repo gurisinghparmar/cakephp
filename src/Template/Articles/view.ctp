@@ -1,10 +1,6 @@
 <h1><?= h($article->title) ?></h1>
 <p><?= h($article->body) ?></p>
 <p><small>Created: <?= $article->created->format(DATE_RFC850) ?></small></p>
-
-<h1><?= h($article->title) ?></h1>
-<p><?= h($article->body) ?></p>
-<p><small>Created: <?= $article->created->format(DATE_RFC850) ?></small></p>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>

@@ -22,18 +22,11 @@ class ArticlesTable extends Table
      */
     public function initialize(array $config)
     {
-              
-        parent::initialize($config);
-
-        $this->table('articles');
-        $this->displayField('title');
-        $this->primaryKey('id');
+          
+        
 
         $this->addBehavior('Timestamp');
-              $this->belongsTo('Categories', [
-            'foreignKey' => 'category_id',
-        ]);
-
+         
     }
 
     /**
